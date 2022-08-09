@@ -75,11 +75,8 @@ class Cart extends Component {
                                    style={{width: '100%'}}
                         />
                     </div>
-
-
                         <GDSEButton className={classes.saveBtn1} size="small" variant="contained" label="save"/>
                         <GDSEButton className={classes.saveBtn2} size="small" variant="contained" color={"warning"} label="clear"/>
-
                 </div>
                 </div>
             </Fragment>
