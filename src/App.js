@@ -3,6 +3,7 @@ import './App.css';
 import Login from "./pages/login/login";
 import NotFound from "./pages/notFound/NotFound";
 import Dashboard from "./pages/dashboard/dashboar";
+import Cart from "./pages/cart/cart";
 import {Route, Routes} from "react-router-dom";
 function App() {
   return (
@@ -10,8 +11,8 @@ function App() {
       <Routes>
         <Route exact path="/"element={<Login/>}/>
         <Route  path='dashboard' element={<Dashboard/>}/>
-        {/*<Route path="cart"element={<Cart/>}/>
-        <Route path="product"element={<Product/>}/>
+        <Route path="cart"element={<Cart/>}/>
+        {/*<Route path="product"element={<Product/>}/>
         <Route path="user"element={<User/>}/>*/}
           <Route path="*"element={<NotFound/>}/>
        </Routes>
